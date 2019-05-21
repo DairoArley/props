@@ -3,7 +3,7 @@ import Inspector from "./components/Inspector";
 class App extends Component {
   state = {
     persons: [
-      { id: 1, name: "Steven", age: 27, gender:"hombre" },
+      { id: 1, name: "Steven", age: '27', gender:"hombre" },
       { id: 2, name: "John", age: 2, gender:"hombre" },
       { id: 3, name: "Kelly", age: 8, gender:"mujer"}
     ],
